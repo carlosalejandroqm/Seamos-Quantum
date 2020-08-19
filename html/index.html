@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carlos Alejandro Quiñones Martinez.">
+    <meta name="description" content="Este es mi primer proyecto responsive design">
+    <meta name="keywords" content="html,css,web development, responsive design">
+    <title>Primer Proyecto Responsive Design</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet" media="">
+</head>
+<!-- fin head -->
+
+<body>
+    <div class="contenedor">
+        <!-- SECCION 1 -> CABECERA  -->
+        <header class="fila">
+            <div id="logo" class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+                <img class="logotipo" src="../img/Blochsphere.svg" alt="">
+                <br>
+                Seamos Quantum
+            </div>
+            <div id="nombre" class="col-lg-8 col-md-8 col-sm-6 col-xs-0">
+
+            </div>
+            <!-- botones de redes sociales -->
+            <div id="redes" class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <center id="github">
+                        <img src="../img/github.png" alt="">
+                    </center>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <center id="twitter">
+                        <img src="../img/twitter2.png" alt="">
+                    </center>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <center id="linkedin">
+                        <img src="../img/linkedin.png" alt="">
+                    </center>
+                </div>
+            </div>
+        </header>
+
+        <!-- SECCION 2 -> MENU DE NAVEGACION -->
+        <nav class="fila">
+            <ul>
+                <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Inicio</a></li>
+                <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Proyectos</a></li>
+                <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Historias</a></li>
+                <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Contactenos</a></li>
+                <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Acerca de</a></li>
+                <li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Otros</a></li>
+            </ul>
+        </nav>
+
+        <!-- SECCION 3 -> PROYECTOS  -->
+        <section id="seccion3" class="fila">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <center>
+                    <img class="sec3" src="../img/quantum2.jpg" alt="">
+                    <h1>Seamos Quantum</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, aliquam!</p>
+                </center>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <center>
+                    <img class="sec3" src="../img/procesador.jpg" alt="">
+                    <h1>Competitive Programming</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, aliquam!</p>
+                </center>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <center>
+                    <img class="sec3" src="../img/procesador.jpg" alt="">
+                    <h1>Artificial Intelligence</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, aliquam!</p>
+                </center>
+            </div>
+        </section>
+
+        <!-- SECCIOON 4 ->  CUERPO DE LA PAGINA , 3 BLOQUES  -->
+        <section id="seccion4" class="fila">
+            <aside class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <ul>
+                    <li><a href="#">Quiskit</a></li>
+                    <li><a href="#">UFPS</a></li>
+                    <li><a href="#">IBM</a></li>
+                    <li><a href="#">Google</a></li>
+                </ul>
+            </aside>
+
+            <article class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <h1>Primer articulo, esto es una prueba.</h1>
+                <p>
+                    <img src="../img/quantum2.jpg" alt="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eum quasi tenetur, doloribus magni
+                    suscipit excepturi voluptatem! Officia ipsum quod rem excepturi eius at ea blanditiis qui eligendi
+                    molestias ab est necessitatibus, recusandae dignissimos, similique alias, cum ullam aut corporis
+                    delectus
+                    totam perspiciatis exercitationem odio assumenda? Obcaecati iste maxime omnis.
+                    <br>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero laboriosam nesciunt fuga magni
+                    deleniti! Incidunt
+                    cupiditate nihil, nam ab suscipit facere dicta molestias provident accusamus labore voluptas
+                    reiciendis ratione
+                    quasi.
+                </p>
+            </article>
+
+            <aside id="der" class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <h1>Registrate</h1>
+                <form action="">
+                    <input  id="user" type="text" placeholder="digite su usuario">
+                    <input  id="pass" type="password" placeholder="digite su contraseña">
+                    <input type="button" value="Enviar" id="enviar">
+                </form>
+            </aside>
+        </section>
+
+        <!-- SECCION 5 -> FOOTER O PIE DE PAGINA -->
+        <footer class="fila">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&copy; todos los derechos reservados</div>
+
+        </footer>
+
+
+    </div>
+
+</body>
+
+</html>
